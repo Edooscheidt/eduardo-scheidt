@@ -1,6 +1,6 @@
 public class metodoComParametro {
     public static void main(String[] args) {
-        desempenharCalculo(5, 4, 2);
+        desempenharCalculo(55, 14, 9);
     }
 
 
