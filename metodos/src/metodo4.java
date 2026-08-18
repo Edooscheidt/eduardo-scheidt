@@ -16,11 +16,11 @@ public class metodo4 {
         String inscricao = "";
 
         while (!inscricao.equals("0")) {
-            System.out.print("Digite o número de inscrição (ou 0 para sair): ");
+            System.out.print("Informe o número de inscrição (ou 0 para sair) : ");
             inscricao = leitor.nextLine();
 
             if (!inscricao.equals("0")) {
-                System.out.print("Digite a altura do atleta: ");
+                System.out.print("Informe a altura do atleta : ");
                 double altura = leitor.nextDouble();
                 leitor.nextLine();
 
@@ -51,7 +51,7 @@ public class metodo4 {
             System.out.println("Altura média do grupo   : "
                     + String.format("%.2f", mediaAlturas) + "m");
 
-            System.out.println("Quantidade de atletas cadastrados: "
+            System.out.println("Quantidade de atletas cadastrados : "
                     + totalAtletas);
         } else {
             System.out.println("\nNenhum atleta foi cadastrado.");
