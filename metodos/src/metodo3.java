@@ -2,8 +2,8 @@ import java.util.Scanner;
 
 public class metodo3 {
 
-    public static void exibirNumeros(int numeros){
-        for (int i = 0; i <= 20; i++){
+    public static void exibirNumeros(int numeros) {
+        for (int i = 0; i <= 20; i++) {
             System.out.println(numeros + i);
         }
     }

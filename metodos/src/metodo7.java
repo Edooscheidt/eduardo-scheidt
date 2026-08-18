@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class metodo1 {
+public class metodo7 {
     public static void main(String[] args) {
         Scanner leitor = new Scanner(System.in);
 
