@@ -7,7 +7,7 @@ public class exemploMetodosComRetorno {
         return num1 + num2;
     }
 
-   
+
     public static void main(String[] args) {
 
         double soma = somarNumeros(15, 50);
