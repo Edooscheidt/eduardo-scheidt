@@ -1,9 +1,9 @@
 import java.util.Scanner;
 
-public class metodo5 {
+public class exer05 {
     public static void main(String[] args) {
         Scanner leitor = new Scanner(System.in);
-        int[] numero = new int[3];
+        int[] numero = new int[5];
 
         for (int i = 0; i < numero.length; i++) {
             System.out.print("Informe o " + (i + 1) + "º número : ");

@@ -1,4 +1,4 @@
-public class metodo6 {
+public class exer06 {
     public static void main(String[] args) {
 
         int[][] matriz = {
