@@ -1,0 +1,18 @@
+public class exemploMetodosComRetorno {
+
+    public static double somarNumeros(int num1, int num2) {
+
+        //  double soma = num1 + num2;
+        // return soma;
+        return num1 + num2;
+    }
+
+   
+    public static void main(String[] args) {
+
+        double soma = somarNumeros(15, 50);
+        System.out.println(soma);
+
+        System.out.println(somarNumeros(10, 6));
+    }
+}
