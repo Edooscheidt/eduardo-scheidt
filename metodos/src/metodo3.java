@@ -18,6 +18,6 @@ public class metodo3 {
 
         numeros(numero);
 
-        leitor.close();
+
     }
 }

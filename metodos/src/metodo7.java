@@ -36,6 +36,6 @@ public class metodo7 {
             System.out.println("Número inválido.");
         }
 
-        leitor.close();
+
     }
 }

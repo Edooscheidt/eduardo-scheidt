@@ -40,6 +40,6 @@ public class metodo1 {
             System.out.println("Número inválido!");
         }
 
-        leitor.close();
+
     }
 }

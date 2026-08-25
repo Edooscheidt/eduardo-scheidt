@@ -30,6 +30,6 @@ public class metodo5 {
 
         comparar(base, numero1, numero2);
 
-        leitor.close();
+
     }
 }

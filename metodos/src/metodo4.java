@@ -50,6 +50,6 @@ public class metodo4 {
         System.out.println("Menor elemento : " + menor(vetor));
         System.out.println("Média dos valores : " + media(vetor));
 
-        leitor.close();
+
     }
 }

@@ -34,6 +34,6 @@ public class metodo6 {
 
         System.out.println("Seu nome Star Wars é : " + nomeStarWars);
 
-        leitor.close();
+
     }
 }
