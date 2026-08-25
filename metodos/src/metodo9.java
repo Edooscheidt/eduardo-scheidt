@@ -10,10 +10,11 @@ public class metodo9 {
 
         System.out.println(determinaparImpar(numero));
     }
-    public static boolean determinaparImpar(int num){
-        if (num % 2 == 0){
+
+    public static boolean determinaparImpar(int num) {
+        if (num % 2 == 0) {
             return true;
-        } else
+        }
         {
             return false;
         }
