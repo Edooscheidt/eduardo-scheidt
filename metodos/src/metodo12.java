@@ -11,7 +11,7 @@ public class metodo12 {
     }
 
     public static char obterCaracter(String palavra) {
-        // return palavra.length() % 2 == 0 ? palavra.charAT(0) : palavra.charAT(1); 
+        // return palavra.length() % 2 == 0 ? palavra.charAT(0) : palavra.charAT(1);
         if (palavra.length() % 2 == 0) {
             return palavra.charAt(0);
         }
