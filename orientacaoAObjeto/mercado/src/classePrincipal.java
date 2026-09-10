@@ -69,8 +69,7 @@ public class classePrincipal {
         //
         // mercadoMaiorReceitaMacas -> guarda o OBJETO Mercado
         // que possui essa receita.
-        System.out.println("Quem teve a maior receita de maçãs: " + mercadoMaiorReceitaMacas.nomeMercado + " faturou: "
-                + mercadoMaiorReceitaMacas.calcularReceitaMacas());
+        System.out.println("Quem teve a maior receita de maçãs: " + mercadoMaiorReceitaMacas.nomeMercado + " faturou: " + mercadoMaiorReceitaMacas.calcularReceitaMacas());
 
         // ==========================================================
         // QUEM TEVE A MENOR RECEITA VENDENDO LARANJAS?
@@ -102,8 +101,7 @@ public class classePrincipal {
         }
 
         // Mostramos os dados do objeto que encontramos.
-        System.out.println("Quem teve a menor receita de laranjas: " + mercadoMenorReceitaLaranjas.nomeMercado
-                + " que vendeu R$" + mercadoMenorReceitaLaranjas.calcularReceitaLaranjas());
+        System.out.println("Quem teve a menor receita de laranjas: " + mercadoMenorReceitaLaranjas.nomeMercado + " que vendeu R$" + mercadoMenorReceitaLaranjas.calcularReceitaLaranjas());
 
         // ==========================================================
         // QUAL LOJA TEVE A SEGUNDA MAIOR RECEITA TOTAL?
@@ -153,8 +151,7 @@ public class classePrincipal {
             //
             // Dessa forma, ignoramos o primeiro colocado e procuramos
             // o maior valor entre os mercados restantes.
-            if (mercados[i].calcularReceitaTotal() > segundaMaiorReceitaTotal
-                    && mercados[i].calcularReceitaTotal() != maiorReceitaTotal) {
+            if (mercados[i].calcularReceitaTotal() > segundaMaiorReceitaTotal && mercados[i].calcularReceitaTotal() != maiorReceitaTotal) {
 
                 // Guardamos o valor da segunda maior receita.
                 segundaMaiorReceitaTotal = mercados[i].calcularReceitaTotal();

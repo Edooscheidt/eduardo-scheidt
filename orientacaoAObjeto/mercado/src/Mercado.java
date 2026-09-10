@@ -28,9 +28,23 @@ public class Mercado {
         return laranjasVendidas * precoLaranja;
     }
 
+    @Override
+    public String toString() {
+        return "Mercado{" +
+                "nomeMercado='" + nomeMercado + '\'' +
+                ", macasVendidas=" + macasVendidas +
+                ", precoMaca=" + precoMaca +
+                ", laranjasVendidas=" + laranjasVendidas +
+                ", precoLaranja=" + precoLaranja +
+                '}';
+    }
+
     public double calcularReceitaTotal() {
         // return (macasVendidas * precoMaca) + (laranjasVendidas * precoLaranja);
         return calcularReceitaMacas() + calcularReceitaLaranjas();
+
+
+
     }
 
 }
