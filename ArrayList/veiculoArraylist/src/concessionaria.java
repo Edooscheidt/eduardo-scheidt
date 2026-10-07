@@ -17,7 +17,7 @@ public class concessionaria {
         double menorPreco = Double.MAX_VALUE;
         veiculo veiculoMaisBarato = null;
         for (veiculo v : veiculos) {
-            if (v.getPreco() > menorPreco) {
+            if (v.getPreco() < menorPreco) {
                 menorPreco = v.getPreco();
                 veiculoMaisBarato = v;
             }
