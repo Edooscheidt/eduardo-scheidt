@@ -6,7 +6,6 @@ public class veiculo {
     private int ano;
     private double preco;
 
-    // Construtor completo
     public veiculo(String marca, String modelo, String placa, int ano, double preco) {
         this.marca = marca;
         this.modelo = modelo;
@@ -15,7 +14,6 @@ public class veiculo {
         this.preco = preco;
     }
 
-    // Getters e Setters
     public String getMarca() {
         return marca;
     }
@@ -56,7 +54,6 @@ public class veiculo {
         this.preco = preco;
     }
 
-    // Método toString atualizado com os novos campos
     @Override
     public String toString() {
         return "Veiculo {" +
