@@ -4,9 +4,9 @@ public class classePrincipal {
 
         sistemaAlunos sistema = new sistemaAlunos();
 
-        aluno a1 = new aluno("Carlos", 20, "1001", "Desenvolvimento de Sistemas", 8.5, "carlos@email.com");
-        aluno a2 = new aluno("Ana", 22, "1002", "Desenvolvimento de Sistemas", 9.0, "ana@email.com");
-        aluno a3 = new aluno("Pedro", 17, "1003", "Administração", 7.5, "pedro@email.com");
+        aluno a1 = new aluno("Diogo", 23, "1001", "Desenvolvimento de Sistemas", 8.5, "diogobennertz@gmail.com");
+        aluno a2 = new aluno("Eduardo", 22, "1002", "Desenvolvimento de Sistemas", 9.0, "eduardo_scheidt@email.com");
+        aluno a3 = new aluno("Patrick", 30, "1003", "Desenvolvimento de Sistemas", 7.5, "patrick_leonardo@email.com");
 
         try {
             sistema.cadastrarAluno(a1);
@@ -33,7 +33,7 @@ public class classePrincipal {
 
             System.out.println("\n--- Teste de e-mail duplicado ---");
 
-            aluno a4 = new aluno("Marcos", 21, "1004", "Informática", 8.0, "carlos@email.com");
+            aluno a4 = new aluno("Yuri", 21, "1004", "Informática", 8.0, "yuri@email.com");
 
             sistema.cadastrarAluno(a4);
 
