@@ -35,7 +35,7 @@ public class classePrincipal {
             System.out.println("Marca não encontrada.");
         }
 
-        System.out.println("\nProdutos Vonder entre R$ 100 e R$ 300:");
+        System.out.println("\nProdutos Vonder entre R$ 100 e R$ 300 :");
 
         for (produto produto :
                 loja.buscarProdutosPorMarcaEPreco("Vonder", 100, 300)) {
