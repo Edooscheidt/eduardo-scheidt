@@ -1,18 +1,20 @@
 public class Main {
     public static void main(String[] args) {
+        Conta c1 = new Conta("Diogo", 1000.00);
+        Conta c2 = new Conta("Eduardo", 500.00);
 
-        conta conta1 = new conta("Eduardo", 1612);
-        conta conta2 = new conta("Diogo", 1612);
+        c1.depositar(200);
+        c1.depositar(-50);
+        c1.sacar(300);
+        c1.sacar(5000);
 
-        conta1.sacar(100);
-        conta1.depositar(200);
-        conta1.transferir(conta2, 300);
+        c1.transferir(c2, 400);
+        c1.transferir(c2, 10000);
 
-        double montante = conta1.simularInvestimento(1000, 12);
+        System.out.printf("Saldo de %s: R$ %.2f%n", c1.getNomeTitular(), c1.getSaldo());
+        System.out.printf("Saldo de %s: R$ %.2f%n", c2.getNomeTitular(), c2.getSaldo());
 
-        System.out.println("Titular: " + conta1.getNomeTitular());
-        System.out.println("Saldo da conta 1: R$ " + conta1.getSaldo());
-        System.out.println("Saldo da conta 2: R$ " + conta2.getSaldo());
-        System.out.printf("Montante do investimento: R$ %.2f%n", montante);
+        double montante = c1.simularInvestimento(1000, 12);
+        System.out.printf("Montante após 12 meses: R$ %.2f%n", montante);
     }
 }
